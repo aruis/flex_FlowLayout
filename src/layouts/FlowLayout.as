@@ -76,7 +76,7 @@ public class FlowLayout extends LayoutBase {
         }
 
         //set final content size (needed for scrolling)
-        //layoutTarget.setContentSize(maxWidth + _border, maxHeight + _border);
+        layoutTarget.setContentSize(maxWidth + _border, maxHeight + _border);
     }
 
     override public function measure():void {
